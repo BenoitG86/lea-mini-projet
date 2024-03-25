@@ -4,16 +4,17 @@ Thématique : site référençant les différentes créatures de Monster Hunter 
 
 ## Fonctionnalités souhaitées
 
-### Front-end :
+### Front-end
 
-    - 1] Page principale comportant :
+    Page principale
 
 - Un header
 - Un main qui contiendra les informations principales de la page
 - Une barre de navigation latérale
 - Un footer avec les mentions légales
+- Un lecteur audio intégré
 ___
-    - 2] Pages de contenus
+    Pages de contenus
 
 - Hériter des caractéristiques de la page principale
 - Un main qui contient les informations sur les monstres
@@ -21,13 +22,68 @@ ___
   - Son nom et ses caractères principaux
   - Un flavor text
 
-### Back-end :
+### Back-end
 
 - Réfléchir à une intégration possible en base de données
 - Songer à l'ajout de commentaires sur la page
 ___
-    - Base de données comportant:   
+    Base de données   
    - id utilisateur
    - champ utilisateur
    - date et heure du message
    - la page du monstre en question
+
+## Plan :
+
+    1. Maquettage
+    
+    2. Création du dossier et préparation de l'environnement  
+    
+    3. Réaliser le HTML  
+
+#### Page principale
+ - Généralités
+ - Header
+   - Image
+   - Titre principal (.hidden)
+ - Main
+   - Section Présentation du site
+   - Section Présentation du jeu
+ - Nav
+   - Lien vers page 1
+   - Lien vers page 2
+   - Lien vers page 
+ - Footer
+   - Mentions légales
+   - About me  
+
+#### Pages annexes  
+
+ - Généralités
+ - Copier la page principale
+ - Modifier le Main et la Nav
+ - Main 
+   - Image du monstre
+   - Div présentation en chiffre
+   - Paragraphe présentation en mots
+
+___
+
+    4. Réaliser le CSS
+ - Reset  
+
+#### Page principale
+ - Généralités
+ - Header
+ - Main
+ - Nav
+ - Footer
+
+#### Pages annexes
+
+ - Modifier le Main  
+___
+
+    5. Validation HTML5 et CSS
+    
+    6. Amélioration du code et du projet; puis retour à l'étape 5
