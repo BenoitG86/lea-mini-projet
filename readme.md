@@ -45,8 +45,8 @@ ___
  - Généralités
  - Header
    - Image
-   - Titre principal (.hidden)
  - Main
+   - Titre principal (.hidden)
    - Section Présentation du site
    - Section Présentation du jeu
  - Nav
