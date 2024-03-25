@@ -1,4 +1,4 @@
-# Mini-projet HTML
+# mini-projet-lea-grandval-benoit
 
 ## Fonctionnalités
 
